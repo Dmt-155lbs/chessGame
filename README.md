@@ -7,7 +7,6 @@ Este proyecto es una implementación básica de un juego de ajedrez en C++, cent
 - Wilmer Cárdenas  
 
 📅 Fecha: 19/12/2023  
-📘 NRC: 3307
 
 ---
 
@@ -40,29 +39,6 @@ Cada pieza del ajedrez (torre, peón, alfil, etc.) implementa su propia versión
 - El **peón** puede avanzar una o dos casillas (si es su primer movimiento).
 - La **torre** se mueve solo en línea recta horizontal o vertical.
 - Etc.
-
----
-
-## 🚧 Desafíos y Soluciones
-
-| Desafío | Solución |
-|--------|----------|
-| Registro de movimientos inválidos | Validar completamente antes de guardar en el historial |
-| Definir y conectar reglas específicas de cada pieza | Uso adecuado de herencia y polimorfismo |
-
----
-
-## 📌 Lecciones Aprendidas
-
-- Importancia de validar bien las entradas del usuario.
-- Uso eficaz de la **herencia y el polimorfismo en C++** para manejar comportamientos específicos.
-- Diseño modular y extensible para sistemas con reglas complejas.
-
----
-
-## ✅ Conclusión
-
-El proyecto permitió modelar con éxito un sistema funcional de ajedrez con validaciones coherentes. Aprendimos a diseñar sistemas estructurados basados en reglas específicas y cómo organizar código reutilizable en C++.
 
 ---
 
